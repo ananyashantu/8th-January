@@ -1,0 +1,46 @@
+.box1{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+.box2{
+    width: 200pt;
+    height: 100pt;
+    background-color: #000000;
+}
+.box3{
+    width: 50%;
+    height: 100px;
+    background-color: rgb(128, 0, 128);
+}
+.box4-1{
+    width: 20rem;
+    height: 100px;
+    margin: 10px;
+    /*margin: 10px 20px;top,bottom left,right
+     margin: 10px 20px 30px;top left,right bottom
+     margin: 10px 20px 10px 20px;top right bottom left
+     margin-top: 10px; box4-1 ke box 3 theke 10px dure sorabe etc */ 
+    padding: 100px;
+    /*padding: 10px 20px; top,bottom left,right
+      padding: 10px 20px 30px; top left,right bottom
+      padding: 10px 20px 10px 20px; top right bottom left
+      padding-top: 10px; box4-1 ke upore 10px boro korbe etc*/
+    background-color: rgba(143, 47, 47, 0.2);
+}
+.box4-2{
+    width: 20rem;
+    height: 100px;
+    margin-top: 10px;
+    padding: 50px;
+    background-color: rgba(143, 47, 47, 1);
+}
+h1::after{
+    display: inline-block;
+}
+h2{
+    display:inline;
+}
+h2:hover{
+    background-color: blueviolet;
+}
