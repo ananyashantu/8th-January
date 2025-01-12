@@ -33,7 +33,7 @@
     height: 100px;
     margin-top: 10px;
     padding: 50px;
-    border: 5px maroon;
+    border: 5px solid maroon;
     background-color: rgba(143, 47, 47, 1);
 }
 h1::after{
